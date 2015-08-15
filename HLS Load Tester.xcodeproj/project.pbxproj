@@ -13,6 +13,9 @@
 		071FC1701B7A8AF700DE0BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071FC16E1B7A8AF700DE0BCE /* Main.storyboard */; };
 		071FC17B1B7A8AF700DE0BCE /* HLS_Load_TesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FC17A1B7A8AF700DE0BCE /* HLS_Load_TesterTests.swift */; };
 		071FC1861B7A8AF700DE0BCE /* HLS_Load_TesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FC1851B7A8AF700DE0BCE /* HLS_Load_TesterUITests.swift */; };
+		071FC1B61B7CF1C700DE0BCE /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FC1B51B7CF1C700DE0BCE /* AudioPlayer.swift */; };
+		071FC1B81B7CF1FE00DE0BCE /* AVObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FC1B71B7CF1FE00DE0BCE /* AVObserver.swift */; };
+		071FC1BA1B7CFF4300DE0BCE /* AudioLoadTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071FC1B91B7CFF4300DE0BCE /* AudioLoadTester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		071FC1811B7A8AF700DE0BCE /* HLS Load TesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HLS Load TesterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		071FC1851B7A8AF700DE0BCE /* HLS_Load_TesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLS_Load_TesterUITests.swift; sourceTree = "<group>"; };
 		071FC1871B7A8AF700DE0BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071FC1B51B7CF1C700DE0BCE /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		071FC1B71B7CF1FE00DE0BCE /* AVObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVObserver.swift; sourceTree = "<group>"; };
+		071FC1B91B7CFF4300DE0BCE /* AudioLoadTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioLoadTester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				071FC16C1B7A8AF700DE0BCE /* Assets.xcassets */,
 				071FC16E1B7A8AF700DE0BCE /* Main.storyboard */,
 				071FC1711B7A8AF700DE0BCE /* Info.plist */,
+				071FC1B51B7CF1C700DE0BCE /* AudioPlayer.swift */,
+				071FC1B71B7CF1FE00DE0BCE /* AVObserver.swift */,
+				071FC1B91B7CFF4300DE0BCE /* AudioLoadTester.swift */,
 			);
 			path = "HLS Load Tester";
 			sourceTree = "<group>";
@@ -252,7 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				071FC16B1B7A8AF700DE0BCE /* ViewController.swift in Sources */,
+				071FC1BA1B7CFF4300DE0BCE /* AudioLoadTester.swift in Sources */,
 				071FC1691B7A8AF700DE0BCE /* AppDelegate.swift in Sources */,
+				071FC1B81B7CF1FE00DE0BCE /* AVObserver.swift in Sources */,
+				071FC1B61B7CF1C700DE0BCE /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +486,7 @@
 				071FC18C1B7A8AF700DE0BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		071FC18D1B7A8AF700DE0BCE /* Build configuration list for PBXNativeTarget "HLS Load TesterTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +495,7 @@
 				071FC18F1B7A8AF700DE0BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		071FC1901B7A8AF700DE0BCE /* Build configuration list for PBXNativeTarget "HLS Load TesterUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +504,7 @@
 				071FC1921B7A8AF700DE0BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
